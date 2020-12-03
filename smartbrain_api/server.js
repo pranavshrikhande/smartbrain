@@ -14,8 +14,8 @@ client:'pg',
 connection:{
     host:'127.0.0.1',
     user:'postgres',
-    password:'infrared',
-    database:'smartbrain'
+    password:'',
+    database:''
 }
 });
 
@@ -42,7 +42,7 @@ const database = {
         id:'124',
         name:'sally',
         email: 'sally@gmail.com',
-        password: 'bananas',
+        password: '',
         entries:0,
         joined: new Date()
     }
